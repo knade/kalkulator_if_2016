@@ -6,4 +6,5 @@ def dodawanie():
 def get_info():
 	print("informacja dla klienta ze jest to program kalkulator")
 	
+get_info()
 dodawanie()
