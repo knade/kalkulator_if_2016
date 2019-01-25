@@ -16,9 +16,10 @@ for i in range(1, 19):
     osoba = random.choice(osoby)
     # print(osoba)
     osoby.remove(osoba)
-    dmg_deck = random.choice(list(dane.keys()))
+    nr_dmg_deck = random.choice(list(dane.keys()))
+    dmg_deck = dane[nr_dmg_deck]
     # print(dmg_deck)
-    del dane[dmg_deck]
+    del dane[nr_dmg_deck]
     wyniki[osoba] = dmg_deck
 
 print(wyniki)
